@@ -25,3 +25,12 @@ print(favorite_language.lstrip())
 #removes whitespace from the beginning and end
 
 print(favorite_language.strip())
+
+
+#Removing prefixes
+
+URL = "https://www.jacobkruse.com"
+
+domain = URL.removeprefix("https://")
+
+print(domain)
